@@ -1,0 +1,42 @@
+/Volumes/Other/anaconda/anaconda3/envs/py36/lib/python3.6/site-packages/djcelery/loaders.py:189: UserWarning: Autodiscover: Error importing blog.apps.BlogConfig.tasks: ModuleNotFoundError("No module named 'blog.apps.BlogConfig'; 'blog.apps' is not a package",)
+  app, related_name, exc,
+[I 210901 06:58:57 command:133] Visit me at http://localhost:5555
+[I 210901 06:58:57 command:138] Broker: redis://localhost:6379/1
+[I 210901 06:58:57 command:141] Registered tasks: 
+    ['beatTaskName',
+     'blog.tasks.NormalTask',
+     'celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap']
+[I 210901 06:58:57 mixins:231] Connected to redis://localhost:6379/1
+[W 210901 06:58:59 control:44] 'stats' inspect method failed
+[W 210901 06:58:59 control:44] 'active_queues' inspect method failed
+[W 210901 06:58:59 control:44] 'registered' inspect method failed
+[W 210901 06:58:59 control:44] 'scheduled' inspect method failed
+[W 210901 06:58:59 control:44] 'active' inspect method failed
+[W 210901 06:58:59 control:44] 'reserved' inspect method failed
+[W 210901 06:58:59 control:44] 'revoked' inspect method failed
+[W 210901 06:58:59 control:44] 'conf' inspect method failed
+[I 210901 07:00:02 command:47] SIGTERM detected, shutting down
+/Volumes/Other/anaconda/anaconda3/envs/py36/lib/python3.6/site-packages/djcelery/loaders.py:189: UserWarning: Autodiscover: Error importing blog.apps.BlogConfig.tasks: ModuleNotFoundError("No module named 'blog.apps.BlogConfig'; 'blog.apps' is not a package",)
+  app, related_name, exc,
+[I 210901 07:00:04 command:133] Visit me at http://localhost:5555
+[I 210901 07:00:04 command:138] Broker: redis://localhost:6379/1
+[I 210901 07:00:04 command:141] Registered tasks: 
+    ['beatTaskName',
+     'blog.tasks.NormalTask',
+     'celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap']
+[I 210901 07:00:04 mixins:231] Connected to redis://localhost:6379/1
+[I 210901 07:00:32 command:47] SIGTERM detected, shutting down

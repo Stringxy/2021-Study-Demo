@@ -1,0 +1,32 @@
+/Volumes/Other/anaconda/anaconda3/envs/py36/lib/python3.6/site-packages/djcelery/loaders.py:189: UserWarning: Autodiscover: Error importing blog.apps.BlogConfig.tasks: ModuleNotFoundError("No module named 'blog.apps.BlogConfig'; 'blog.apps' is not a package",)
+  app, related_name, exc,
+[2021-09-01 06:58:57,593: INFO/MainProcess] beat: Starting...
+[2021-09-01 06:58:57,611: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:02,611: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:07,611: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:12,611: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:17,612: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:22,612: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:27,612: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:32,612: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:37,612: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:42,613: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:47,613: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:52,613: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 06:59:57,614: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 07:00:02,614: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 07:00:07,615: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 07:00:12,615: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 07:00:17,615: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 07:00:22,615: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 07:00:27,616: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+[2021-09-01 07:00:32,616: INFO/MainProcess] Scheduler: Sending due task beatTask (beatTaskName)
+celery beat v3.1.26.post2 (Cipater) is starting.
+__    -    ... __   -        _
+Configuration ->
+    . broker -> redis://localhost:6379/1
+    . loader -> djcelery.loaders.DjangoLoader
+    . scheduler -> celery.beat.PersistentScheduler
+    . db -> celerybeat-schedule
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> now (0s)

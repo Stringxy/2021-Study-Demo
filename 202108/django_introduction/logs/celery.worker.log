@@ -1,0 +1,159 @@
+Unknown command: 'celety'. Did you mean celery?
+Type 'manage.py help' for usage.
+Unknown command: 'celety'. Did you mean celery?
+Type 'manage.py help' for usage.
+Unknown command: 'celety'. Did you mean celery?
+Type 'manage.py help' for usage.
+Unknown command: 'celety'. Did you mean celery?
+Type 'manage.py help' for usage.
+/Volumes/Other/anaconda/anaconda3/envs/py36/lib/python3.6/site-packages/djcelery/loaders.py:189: UserWarning: Autodiscover: Error importing blog.apps.BlogConfig.tasks: ModuleNotFoundError("No module named 'blog.apps.BlogConfig'; 'blog.apps' is not a package",)
+  app, related_name, exc,
+[2021-09-01 06:58:57,637: WARNING/MainProcess] /Volumes/Other/anaconda/anaconda3/envs/py36/lib/python3.6/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2021-09-01 06:58:57,648: WARNING/MainProcess] /Volumes/Other/anaconda/anaconda3/envs/py36/lib/python3.6/site-packages/billiard/__init__.py:321: RuntimeWarning: force_execv is not supported as the billiard C extension is not installed
+  warnings.warn(RuntimeWarning(W_NO_EXECV))
+[2021-09-01 06:58:57,787: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2021-09-01 06:58:57,796: INFO/MainProcess] mingle: searching for neighbors
+[2021-09-01 06:58:58,803: INFO/MainProcess] mingle: all alone
+[2021-09-01 06:58:58,819: WARNING/MainProcess] /Volumes/Other/anaconda/anaconda3/envs/py36/lib/python3.6/site-packages/djcelery/loaders.py:133: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+[2021-09-01 06:58:58,820: WARNING/MainProcess] celery@xiaoyaodeMacBook-Pro.local ready.
+[2021-09-01 06:58:58,827: INFO/MainProcess] Received task: beatTaskName[c03ff12b-3972-4a2e-904f-dada0e344fab]
+[2021-09-01 06:58:58,831: WARNING/Worker-1] start beat task
+[2021-09-01 06:58:58,832: WARNING/Worker-1] args=(),kwargs={}
+[2021-09-01 06:59:00,833: WARNING/Worker-1] end beat task
+[2021-09-01 06:59:00,839: INFO/MainProcess] Task beatTaskName[c03ff12b-3972-4a2e-904f-dada0e344fab] succeeded in 2.009109996004554s: None
+[2021-09-01 06:59:02,607: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-09-01 06:59:02,613: INFO/MainProcess] Received task: beatTaskName[b4ca6607-6ba3-4f6a-90f4-231948262797]
+[2021-09-01 06:59:02,616: WARNING/Worker-3] start beat task
+[2021-09-01 06:59:02,617: WARNING/Worker-3] args=(),kwargs={}
+[2021-09-01 06:59:04,617: WARNING/Worker-3] end beat task
+[2021-09-01 06:59:04,624: INFO/MainProcess] Task beatTaskName[b4ca6607-6ba3-4f6a-90f4-231948262797] succeeded in 2.0085159110021777s: None
+[2021-09-01 06:59:07,612: INFO/MainProcess] Received task: beatTaskName[58ef85fb-aa57-4341-a125-d81a4686e475]
+[2021-09-01 06:59:07,615: WARNING/Worker-2] start beat task
+[2021-09-01 06:59:07,616: WARNING/Worker-2] args=(),kwargs={}
+[2021-09-01 06:59:09,616: WARNING/Worker-2] end beat task
+[2021-09-01 06:59:09,624: INFO/MainProcess] Task beatTaskName[58ef85fb-aa57-4341-a125-d81a4686e475] succeeded in 2.009980336006265s: None
+[2021-09-01 06:59:12,614: INFO/MainProcess] Received task: beatTaskName[4d24e390-9da9-4828-81b4-6add25234bd2]
+[2021-09-01 06:59:12,616: WARNING/Worker-4] start beat task
+[2021-09-01 06:59:12,617: WARNING/Worker-4] args=(),kwargs={}
+[2021-09-01 06:59:14,618: WARNING/Worker-4] end beat task
+[2021-09-01 06:59:14,625: INFO/MainProcess] Task beatTaskName[4d24e390-9da9-4828-81b4-6add25234bd2] succeeded in 2.0097394029944553s: None
+[2021-09-01 06:59:17,613: INFO/MainProcess] Received task: beatTaskName[7b3b1d26-6e6c-4940-8390-7397d6976ca1]
+[2021-09-01 06:59:17,615: WARNING/Worker-1] start beat task
+[2021-09-01 06:59:17,615: WARNING/Worker-1] args=(),kwargs={}
+[2021-09-01 06:59:19,625: WARNING/Worker-1] end beat task
+[2021-09-01 06:59:19,632: INFO/MainProcess] Task beatTaskName[7b3b1d26-6e6c-4940-8390-7397d6976ca1] succeeded in 2.0168685980024748s: None
+[2021-09-01 06:59:22,613: INFO/MainProcess] Received task: beatTaskName[af4f8a8c-10f8-4b03-b076-78a6c0e59cd8]
+[2021-09-01 06:59:22,615: WARNING/Worker-3] start beat task
+[2021-09-01 06:59:22,615: WARNING/Worker-3] args=(),kwargs={}
+[2021-09-01 06:59:24,617: WARNING/Worker-3] end beat task
+[2021-09-01 06:59:24,620: INFO/MainProcess] Task beatTaskName[af4f8a8c-10f8-4b03-b076-78a6c0e59cd8] succeeded in 2.0043236959973s: None
+[2021-09-01 06:59:27,614: INFO/MainProcess] Received task: beatTaskName[35c14258-faa1-4e64-ae5c-9f19d1c2bbd3]
+[2021-09-01 06:59:27,615: WARNING/Worker-2] start beat task
+[2021-09-01 06:59:27,616: WARNING/Worker-2] args=(),kwargs={}
+[2021-09-01 06:59:29,617: WARNING/Worker-2] end beat task
+[2021-09-01 06:59:29,619: INFO/MainProcess] Task beatTaskName[35c14258-faa1-4e64-ae5c-9f19d1c2bbd3] succeeded in 2.0035270640000817s: None
+[2021-09-01 06:59:32,614: INFO/MainProcess] Received task: beatTaskName[918478d8-3d25-496b-b135-4df1d9d77f3f]
+[2021-09-01 06:59:32,615: WARNING/Worker-4] start beat task
+[2021-09-01 06:59:32,615: WARNING/Worker-4] args=(),kwargs={}
+[2021-09-01 06:59:34,617: WARNING/Worker-4] end beat task
+[2021-09-01 06:59:34,619: INFO/MainProcess] Task beatTaskName[918478d8-3d25-496b-b135-4df1d9d77f3f] succeeded in 2.0039556240008096s: None
+[2021-09-01 06:59:37,614: INFO/MainProcess] Received task: beatTaskName[46d37f64-b94c-447f-8d9c-c675ee58bf58]
+[2021-09-01 06:59:37,616: WARNING/Worker-1] start beat task
+[2021-09-01 06:59:37,616: WARNING/Worker-1] args=(),kwargs={}
+[2021-09-01 06:59:39,617: WARNING/Worker-1] end beat task
+[2021-09-01 06:59:39,619: INFO/MainProcess] Task beatTaskName[46d37f64-b94c-447f-8d9c-c675ee58bf58] succeeded in 2.002927514993644s: None
+[2021-09-01 06:59:42,614: INFO/MainProcess] Received task: beatTaskName[e8ffe837-8018-416f-aad3-c2c8b3db0e93]
+[2021-09-01 06:59:42,615: WARNING/Worker-3] start beat task
+[2021-09-01 06:59:42,615: WARNING/Worker-3] args=(),kwargs={}
+[2021-09-01 06:59:44,617: WARNING/Worker-3] end beat task
+[2021-09-01 06:59:44,619: INFO/MainProcess] Task beatTaskName[e8ffe837-8018-416f-aad3-c2c8b3db0e93] succeeded in 2.003759576997254s: None
+[2021-09-01 06:59:47,614: INFO/MainProcess] Received task: beatTaskName[2625212a-95e2-4485-bd41-3a054bed3605]
+[2021-09-01 06:59:47,616: WARNING/Worker-2] start beat task
+[2021-09-01 06:59:47,616: WARNING/Worker-2] args=(),kwargs={}
+[2021-09-01 06:59:49,616: WARNING/Worker-2] end beat task
+[2021-09-01 06:59:49,619: INFO/MainProcess] Task beatTaskName[2625212a-95e2-4485-bd41-3a054bed3605] succeeded in 2.0026096619985765s: None
+[2021-09-01 06:59:52,617: INFO/MainProcess] Received task: beatTaskName[c59bb705-ac6d-4e2f-8f0e-b1f63bf26606]
+[2021-09-01 06:59:52,619: WARNING/Worker-4] start beat task
+[2021-09-01 06:59:52,620: WARNING/Worker-4] args=(),kwargs={}
+[2021-09-01 06:59:54,621: WARNING/Worker-4] end beat task
+[2021-09-01 06:59:54,624: INFO/MainProcess] Task beatTaskName[c59bb705-ac6d-4e2f-8f0e-b1f63bf26606] succeeded in 2.0041442430010648s: None
+[2021-09-01 06:59:57,616: INFO/MainProcess] Received task: beatTaskName[6008a939-4fd8-4eae-859a-b71a873b1cba]
+[2021-09-01 06:59:57,617: WARNING/Worker-1] start beat task
+[2021-09-01 06:59:57,617: WARNING/Worker-1] args=(),kwargs={}
+[2021-09-01 06:59:59,619: WARNING/Worker-1] end beat task
+[2021-09-01 06:59:59,621: INFO/MainProcess] Task beatTaskName[6008a939-4fd8-4eae-859a-b71a873b1cba] succeeded in 2.0038722589961253s: None
+[2021-09-01 07:00:02,616: INFO/MainProcess] Received task: beatTaskName[624dc9e8-a644-43d2-b7e6-4762d4c842f3]
+[2021-09-01 07:00:02,617: WARNING/Worker-3] start beat task
+[2021-09-01 07:00:02,618: WARNING/Worker-3] args=(),kwargs={}
+[2021-09-01 07:00:04,619: WARNING/Worker-3] end beat task
+[2021-09-01 07:00:04,622: INFO/MainProcess] Task beatTaskName[624dc9e8-a644-43d2-b7e6-4762d4c842f3] succeeded in 2.004086619002919s: None
+[2021-09-01 07:00:07,616: INFO/MainProcess] Received task: beatTaskName[99707130-cd81-4e13-8f1c-63dd0985addb]
+[2021-09-01 07:00:07,618: WARNING/Worker-2] start beat task
+[2021-09-01 07:00:07,618: WARNING/Worker-2] args=(),kwargs={}
+[2021-09-01 07:00:09,620: WARNING/Worker-2] end beat task
+[2021-09-01 07:00:09,622: INFO/MainProcess] Task beatTaskName[99707130-cd81-4e13-8f1c-63dd0985addb] succeeded in 2.003760781000892s: None
+[2021-09-01 07:00:12,616: INFO/MainProcess] Received task: beatTaskName[676a673f-fe95-46ae-bd55-14c9f10ed571]
+[2021-09-01 07:00:12,617: WARNING/Worker-4] start beat task
+[2021-09-01 07:00:12,618: WARNING/Worker-4] args=(),kwargs={}
+[2021-09-01 07:00:14,618: WARNING/Worker-4] end beat task
+[2021-09-01 07:00:14,621: INFO/MainProcess] Task beatTaskName[676a673f-fe95-46ae-bd55-14c9f10ed571] succeeded in 2.002984390994243s: None
+[2021-09-01 07:00:17,617: INFO/MainProcess] Received task: beatTaskName[14466815-7906-4a9d-a929-1ca53600075a]
+[2021-09-01 07:00:17,618: WARNING/Worker-1] start beat task
+[2021-09-01 07:00:17,619: WARNING/Worker-1] args=(),kwargs={}
+[2021-09-01 07:00:19,620: WARNING/Worker-1] end beat task
+[2021-09-01 07:00:19,622: INFO/MainProcess] Task beatTaskName[14466815-7906-4a9d-a929-1ca53600075a] succeeded in 2.003139116000966s: None
+[2021-09-01 07:00:22,618: INFO/MainProcess] Received task: beatTaskName[c9519062-e110-42af-9d09-a31c288d286a]
+[2021-09-01 07:00:22,620: WARNING/Worker-3] start beat task
+[2021-09-01 07:00:22,620: WARNING/Worker-3] args=(),kwargs={}
+[2021-09-01 07:00:24,621: WARNING/Worker-3] end beat task
+[2021-09-01 07:00:24,623: INFO/MainProcess] Task beatTaskName[c9519062-e110-42af-9d09-a31c288d286a] succeeded in 2.0030332950045704s: None
+[2021-09-01 07:00:27,618: INFO/MainProcess] Received task: beatTaskName[1ccbfae7-50d4-45b5-b786-a3195fc61826]
+[2021-09-01 07:00:27,619: WARNING/Worker-2] start beat task
+[2021-09-01 07:00:27,620: WARNING/Worker-2] args=(),kwargs={}
+[2021-09-01 07:00:29,621: WARNING/Worker-2] end beat task
+[2021-09-01 07:00:29,623: INFO/MainProcess] Task beatTaskName[1ccbfae7-50d4-45b5-b786-a3195fc61826] succeeded in 2.0031681199980085s: None
+[2021-09-01 07:00:32,617: INFO/MainProcess] Received task: beatTaskName[c73c819a-7ca4-46fc-b018-ddc14bd37aab]
+[2021-09-01 07:00:32,619: WARNING/Worker-4] start beat task
+[2021-09-01 07:00:32,619: WARNING/Worker-4] args=(),kwargs={}
+[2021-09-01 07:00:34,620: WARNING/Worker-4] end beat task
+
+worker: Warm shutdown (MainProcess)
+[2021-09-01 07:00:35,053: INFO/MainProcess] Task beatTaskName[c73c819a-7ca4-46fc-b018-ddc14bd37aab] succeeded in 2.433399034998729s: None
+ 
+ -------------- celery@xiaoyaodeMacBook-Pro.local v3.1.26.post2 (Cipater)
+---- **** ----- 
+--- * ***  * -- Darwin-18.7.0-x86_64-64bit
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x10b698438 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> normal_tasks     exchange=normal_tasks(direct) key=normal_tasks
+                .> schedule_tasks   exchange=schedule_tasks(direct) key=schedule_tasks
+
+[tasks]
+  . beatTaskName
+  . blog.tasks.NormalTask
+
