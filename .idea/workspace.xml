@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a39c38d-fe19-44f6-825d-277bf8482dca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202107/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202107/matplotlib/BarDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202107/matplotlib/MulitBarDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202107/matplotlib/RandDotLineDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202107/matplotlib/ScatterDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202107/matplotlib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/202107/matplotlib/matplotlibBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/202109/K8s.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/202110/MachineLearningMain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/202110/knn/kNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/202110/knn/testSet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/202110/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/202110/trees/trees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/2021-Study-Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2021-Study-Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/202106/matplotlibTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/202106/matplotlibTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,30 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/202110/knn/testSet.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202106/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202108/django_introduction/blog/apps.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202110/trees/trees.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202107/matplotlib/BarDemo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202107/matplotlib/MulitBarDemo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202107/matplotlib/RandDotLineDemo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202107/matplotlib/ScatterDemo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202107/matplotlib/matplotlibBase.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202106/numpyTest.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202110/knn/kNN.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202106/matplotlibTest.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/202110/MachineLearningMain.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,6 +87,9 @@
     <option name="height" value="634" />
   </component>
   <component name="ProjectId" id="1wTxLuSePiDLgi02iZn1OynBUxC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -115,19 +141,43 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/202107/matplotlib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/202107" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/202110/knn" />
+      <recent name="$PROJECT_DIR$/202107/matplotlib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.MulitBarDemo">
+  <component name="RunManager" selected="Python.MachineLearningMain">
+    <configuration name="MachineLearningMain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2021-Study-Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../Other/anaconda/anaconda3/envs/py36/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/202110" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/202110/MachineLearningMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MulitBarDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021-Study-Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,28 +192,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/202107/matplotlib/MulitBarDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="matplotlibBase" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2021-Study-Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/202107" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/202107/matplotlib/matplotlibBase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,19 +267,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.matplotlibBase" />
       <item itemvalue="Python.mplRandDotLineDemo" />
       <item itemvalue="Python.mplScatterDemo" />
       <item itemvalue="Python.mplBarDemo" />
       <item itemvalue="Python.MulitBarDemo" />
+      <item itemvalue="Python.MachineLearningMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MachineLearningMain" />
         <item itemvalue="Python.MulitBarDemo" />
         <item itemvalue="Python.mplBarDemo" />
         <item itemvalue="Python.mplScatterDemo" />
         <item itemvalue="Python.mplRandDotLineDemo" />
-        <item itemvalue="Python.matplotlibBase" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +296,9 @@
       <updated>1624687760572</updated>
       <workItem from="1628496366504" duration="1593000" />
       <workItem from="1629942754015" duration="1203000" />
+      <workItem from="1633098348916" duration="14030000" />
+      <workItem from="1633932874647" duration="10555000" />
+      <workItem from="1635066551956" duration="10654000" />
     </task>
     <servers />
   </component>
@@ -302,8 +333,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2021_Study_Demo$MulitBarDemo.coverage" NAME="MulitBarDemo Coverage Results" MODIFIED="1630243431774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/202107/matplotlib" />
+    <SUITE FILE_PATH="coverage/2021_Study_Demo$MachineLearningMain.coverage" NAME="MachineLearningMain Coverage Results" MODIFIED="1635425229771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/202110" />
+    <SUITE FILE_PATH="coverage/2021_Study_Demo$MachineLearningBookOne.coverage" NAME="MachineLearningMain Coverage Results" MODIFIED="1633197457686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/202110" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/202106/__init__.py">
